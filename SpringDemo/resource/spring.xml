@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean id="triangle" class="org.spring.demo.Triangle" >
+	<constructor-arg type="java.lang.String" value="Eqilateral"/>
+	<constructor-arg type="int" value="9"/>
+	<constructor-arg type="int" value="6"/>
+	</bean>
+</beans>
